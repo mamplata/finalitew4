@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  .navbar {
+    background-color: green;
+  }
+
+  .nav-link {
+    color: white;
+  }
+
+  .nav-link:hover {
+    background-color: #E7D37F;
+  }
+
+  .active {
+    background-color: #E7D37F !important;
+  }
+
+  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+  .footer {
+    background-color: #365E32;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px 10px 0 0;
+    margin-bottom: 5px;
+  }
+
+  .card {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  /* Style the close button */
+  .close {
+    position: absolute;
+    top: -5px;
+    right: 10px;
+    font-size: 24px;
+    color: #333;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    overflow: auto;
+  }
+
+  .modal-content {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 300px;
+    background-color: #fff;
+    position: relative;
+  }
+
+  .modal img {
+    display: block;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 300px;
+    height: 250px;
+  }
+
+  :target {
+    display: block;
+  }
+
+  .container-fluid img:hover {
+    filter: brightness(70%);
+  }
+  
+  
